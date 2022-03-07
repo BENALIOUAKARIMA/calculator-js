@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.sup {
+    color: blue;
+}
+
+.operate {
+    color: orange;
+}
+
+.equal {
+    background-color: blue;
+}
+
+.row {
+    display: flex;
+    height: 100px;
+    width: 400px;
+}
+
+input[type="text"],
+button {
+    flex: 1;
+    /* pour prendre tout l'espace */
+    border: none;
+    color: #adadad;
+}
+
+input[type="text"] {
+    background-color: #1f1f1f;
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+button {
+    font-size: 20px;
+    background-color: #1c1c1c;
+}
+
+button:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
